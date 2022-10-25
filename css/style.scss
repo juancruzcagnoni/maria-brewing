@@ -1,0 +1,87 @@
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:wght@400;700&display=swap');
+
+// Variables
+$background: #f1e7c6;
+$text: #1C110A;
+$title: #9B2915;
+$subtitle: #E9B44C;
+
+// Normalize 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: $background;
+}
+
+p{
+    line-height: 1.3rem;
+    color: $text;
+}
+
+// Navbar 
+.navbar-nav{
+    text-align: center;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+// Home 
+.home{
+    margin-top: 4rem;
+}
+
+h1{
+    font-family: 'DM Serif Text', serif;
+    line-height: 1.7rem;
+}
+
+.home-info{
+    text-align: center;
+
+    span{
+        font-family: 'DM Serif Text', serif;
+        font-style: italic;
+        color: $title;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: $title;
+        padding: 9px 34px;
+        border-radius: 5px;
+        color: $subtitle;
+        font-weight: 700;
+    }
+}
+
+.container-main-image{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image{
+    transform: rotateZ(-4deg);
+    border-radius: 5px;
+    width: 70%;
+    height: auto;
+}
+
+// Nosotros 
+.container-2{
+    width: 70%;
+    margin: auto;
+}
