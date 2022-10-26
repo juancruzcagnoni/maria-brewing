@@ -230,6 +230,11 @@ h2 {
   font-weight: 700;
 }
 
+.btn:hover {
+  background-color: #9B2915;
+  color: #E9B44C;
+}
+
 footer {
   padding: 50px 0;
   background-color: #9B2915;
@@ -316,6 +321,7 @@ footer {
   text-decoration: none;
   color: #641b0e;
   font-weight: 700;
+  font-style: italic;
 }
 
 .container-3 {
@@ -372,7 +378,7 @@ footer {
 }
 
 .producto-nombre p {
-  color: #39322e;
+  color: #43403e;
 }
 
 .container-precio {
@@ -412,6 +418,9 @@ footer {
   .card {
     text-align: center;
     height: 170px;
+  }
+  .contacto-info h2 {
+    margin-bottom: 3rem;
   }
   .form {
     width: 60%;
