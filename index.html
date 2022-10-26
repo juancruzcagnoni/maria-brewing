@@ -27,8 +27,8 @@
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link" href="#">Inicio</a>
                     <a class="nav-link" href="#nosotros">Nosotros</a>
-                    <a class="nav-link" href="#">Menú</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="menu.html">Menú</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
@@ -39,10 +39,12 @@
         <div class="container">
             <div class="row home">
                 <div class="col-12 col-md-6 home-info">
-                    <h1>María Brewing, <span>beber religiosamente.</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum asperiores voluptatum labore ea
-                        quod animi omnis saepe explicabo, consequuntur vitae minima.</p>
-                    <div class="btn-menu"><a href="">Menú</a></div>
+                    <div>
+                        <h1>María Brewing, <span>beber religiosamente.</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum asperiores voluptatum labore ea
+                            quod animi omnis saepe explicabo, consequuntur vitae minima.</p>
+                        <div class="btn-menu"><a href="menu.html">Menú</a></div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 container-main-image">
                     <img src="img/main-image.png" alt="Imagen del home" class="img-fluid main-image">
@@ -77,27 +79,28 @@
         </div>
     </section>
 
-    <section class="container">
-        <div class="row nosotros-info" id="nosotros">
-            <div class="col-md-6 container-nosotros-image">
-                <img src="img/nosotros-image.png" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <p class="nosotros-title m-0">Nosotros</p>
-                <h2>Maria Brewing</h2>
-                <p class="nosotros-historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officiis impedit earum! Ad animi veniam
-                    beatae quae nihil magnam facilis at quod a sit nobis, minus quaerat esse quia modi. Lorem ipsum,
-                    dolor sit amet consectetur adipisicing elit. Est error fugiat, natus sint laudantium libero
-                    voluptas. Expedita ducimus soluta quae iusto commodi nulla laboriosam suscipit voluptatibus aperiam
-                    sed! Voluptatem, quisquam magni molestias laborum commo adipisicing elit. Est error fugiat, natus sint laudantium libero
-                    voluptas. Expedita ducimus soluta quae iusto commodi nulla laboriosam suscipit voluptatibus aperiam
-                    sed! Voluptatem, quisquam magni molestias laborum commodi delectus eaque vel beatae harum sit.</p>
+    <section class="nosotros-info">
+        <div class="container">
+            <div class="row" id="nosotros">
+                <div class="col-md-6 container-nosotros-image">
+                    <img src="img/nosotros-image.png" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="nosotros-title m-0">Nosotros</p>
+                    <h2>Maria Brewing</h2>
+                    <p class="nosotros-historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officiis impedit earum! Ad animi veniam
+                        beatae quae nihil magnam facilis at quod a sit nobis, minus quaerat esse quia modi. Lorem ipsum,
+                        dolor sit amet consectetur adipisicing elit. Est error fugiat, natus sint laudantium libero
+                        voluptas. Expedita ducimus soluta quae iusto commodi nulla laboriosam suscipit voluptatibus aperiam
+                        sed! Voluptatem, quisquam magni molestias laborum commo adipisicing elit. Est error fugiat, natus sint laudantium libero
+                        voluptas. delectus eaque vel beatae harum sit.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contacto  -->
-    <section class="container contacto">
+    <section class="container contacto" id="contacto">
         <div class="contacto-info">
             <p class="nosotros-title m-0">Contacto</p>
             <h2>Contactate con nosotros!</h2>
@@ -118,22 +121,24 @@
     </section>
 
     <!-- Footer  -->
-    <footer class="container">
-        <div class="d-flex flex-column flex-md-row">
-            <div class="redes">
-                <img src="img/logo-icon.png" alt="Logo Maria Brewing" width="80">
-                <div class="redes2">
-                    <a href="https://www.instagram.com/mariabrewing/?hl=es-la"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.facebook.com/mariabrewingareco"><i class="bi bi-facebook"></i></a>
+    <footer>
+        <div class="container">
+            <div class="footer-contenido">
+                <div class="redes">
+                    <img src="img/logo-icon.png" alt="Logo Maria Brewing" width="80">
+                    <div class="redes2">
+                        <a href="https://www.instagram.com/mariabrewing/?hl=es-la"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/mariabrewingareco"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <p>Miercoles a Domingo 18:30hs - 03:00hs</p>
+                    <p>Arellano 78, San Antonio de Areco</p>
+                    <p>(+54) 011 5863-6910</p>
                 </div>
             </div>
-            <div class="info">
-                <p>Miercoles a Domingo 18:30hs - 03:00hs</p>
-                <p>Arellano 78, San Antonio de Areco</p>
-                <p>(+54) 011 5863-6910</p>
-            </div>
+            <p class="copy">Desarrollado por <a href="mailto:juancagnoni@gmail.com">Juan Cruz Cagnoni</a></p>
         </div>
-        <p class="copy">Desarrollado por <a href="mailto:juancagnoni@gmail.com">Juan Cruz Cagnoni</a></p>
     </footer>
 
     <!-- Javascript Bootstrap  -->
