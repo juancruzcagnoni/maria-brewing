@@ -22,11 +22,13 @@ body{
 p{
     line-height: 1.3rem;
     color: $text;
+    font-size: 1.1rem;
 }
 
 // Navbar 
 .navbar{
     background-color: $background;
+    z-index: 100;
 }
 
 .navbar-nav{
@@ -93,9 +95,9 @@ h1{
 }
 
 .main-image{
-    transform: rotateZ(-4deg);
+    transform: rotateZ(-2deg);
     border-radius: 5px;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
@@ -107,11 +109,96 @@ h1{
 
 .nosotros{
     margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 .card{
     border: none;
-    text-align: center;
+    display: flex;
+    align-items: center;
     margin-bottom: 1rem;
     padding: 1rem;
+    background-color: $title;
+}
+
+.card-title{
+    color: #f1e7c6;
+    font-weight: 700;
+}
+
+.container-icon{
+    background-color: $subtitle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        color: $title;
+        font-size: 1.7rem;
+    }
+}
+
+.nosotros-info{
+    padding: 50px 0;
+    background-color: $subtitle;
+    text-align: center;
+}
+
+.container-nosotros-image{
+    margin-bottom: 3rem;
+
+    img{
+        border-radius: 5px;
+    }
+}
+
+.nosotros-title{
+    color: $title;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'DM Serif Text', serif;
+    color: $text;
+    margin-bottom: 1rem;
+}
+
+.nosotros-historia{
+    color: $text;
+}
+
+// Contacto 
+.contacto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacto-info{
+    text-align: center;
+}
+
+.form{
+    margin-top: 3rem;
+}
+
+.form-control{
+    border: none;
+    color: $subtitle;
+}
+
+.form-control::placeholder{
+    color: $subtitle;
+    font-weight: 700;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: $title;
+    padding: 9px 34px;
+    border-radius: 5px;
+    color: $subtitle;
+    font-weight: 700;
 }

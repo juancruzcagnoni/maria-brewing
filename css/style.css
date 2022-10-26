@@ -14,10 +14,12 @@ body {
 p {
   line-height: 1.3rem;
   color: #1C110A;
+  font-size: 1.1rem;
 }
 
 .navbar {
   background-color: #f1e7c6;
+  z-index: 100;
 }
 
 .navbar-nav {
@@ -90,10 +92,10 @@ h1 {
 }
 
 .main-image {
-  -webkit-transform: rotateZ(-4deg);
-          transform: rotateZ(-4deg);
+  -webkit-transform: rotateZ(-2deg);
+          transform: rotateZ(-2deg);
   border-radius: 5px;
-  width: 70%;
+  width: 80%;
   height: auto;
 }
 
@@ -104,12 +106,121 @@ h1 {
 
 .nosotros {
   margin-top: 100px;
+  padding-bottom: 40px;
 }
 
 .card {
   border: none;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 1rem;
   padding: 1rem;
+  background-color: #9B2915;
+}
+
+.card-title {
+  color: #f1e7c6;
+  font-weight: 700;
+}
+
+.container-icon {
+  background-color: #E9B44C;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-icon i {
+  color: #9B2915;
+  font-size: 1.7rem;
+}
+
+.nosotros-info {
+  padding: 50px 0;
+  background-color: #E9B44C;
+  text-align: center;
+}
+
+.container-nosotros-image {
+  margin-bottom: 3rem;
+}
+
+.container-nosotros-image img {
+  border-radius: 5px;
+}
+
+.nosotros-title {
+  color: #9B2915;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'DM Serif Text', serif;
+  color: #1C110A;
+  margin-bottom: 1rem;
+}
+
+.nosotros-historia {
+  color: #1C110A;
+}
+
+.contacto {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contacto-info {
+  text-align: center;
+}
+
+.form {
+  margin-top: 3rem;
+}
+
+.form-control {
+  border: none;
+  color: #E9B44C;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #E9B44C;
+  font-weight: 700;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #E9B44C;
+  font-weight: 700;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #E9B44C;
+  font-weight: 700;
+}
+
+.form-control::placeholder {
+  color: #E9B44C;
+  font-weight: 700;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #9B2915;
+  padding: 9px 34px;
+  border-radius: 5px;
+  color: #E9B44C;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
