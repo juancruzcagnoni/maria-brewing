@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -215,12 +216,75 @@ h2 {
   font-weight: 700;
 }
 
+.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .btn {
   text-decoration: none;
   background-color: #9B2915;
   padding: 9px 34px;
   border-radius: 5px;
   color: #E9B44C;
+  font-weight: 700;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #9B2915;
+}
+
+.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redes2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 3rem;
+}
+
+.redes2 a {
+  padding: 1rem 1.5rem;
+}
+
+.redes2 i {
+  font-size: 2rem;
+  color: #E9B44C;
+}
+
+.info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.info p {
+  margin: 0;
+  color: #f1e7c6;
+}
+
+.copy {
+  margin-top: 4rem;
+  text-align: center;
+  color: #641b0e;
+  font-size: 0.9rem;
+}
+
+.copy a {
+  text-decoration: none;
+  color: #641b0e;
   font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
