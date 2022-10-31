@@ -262,7 +262,7 @@ footer{
 
 .encontranos{
     font-family: 'DM Serif Text', serif;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: $subtitle;
     margin-bottom: 1rem;
 }
@@ -426,7 +426,8 @@ footer{
 
 @media (min-width: 1024px) {
     h1{
-        font-size: 2.2rem;
+        font-size: 2.6rem;
+        line-height: 2.1rem;
     }
 
     .container-2{
